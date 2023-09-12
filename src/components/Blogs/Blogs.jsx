@@ -13,7 +13,7 @@ const Blogs = ({handleBookMark, handleMarkAsRead}) => {
     }, [])
   
     return (
-    <div className="">
+    <div>
         <h1 className="text-3xl text-center font-semibold">Blogs: {blogs.length}</h1>
         {
             blogs.map(blog => 
